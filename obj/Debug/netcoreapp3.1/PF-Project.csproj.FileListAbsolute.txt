@@ -1,0 +1,11 @@
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project.deps.json
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project.runtimeconfig.json
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project.runtimeconfig.dev.json
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project.dll
+/home/dani/Code/C#/PF-Project/bin/Debug/netcoreapp3.1/PF-Project.pdb
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.csprojAssemblyReference.cache
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.AssemblyInfoInputs.cache
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.AssemblyInfo.cs
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.dll
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.pdb
