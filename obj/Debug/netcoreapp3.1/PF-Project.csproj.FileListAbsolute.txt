@@ -9,3 +9,5 @@
 /home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.AssemblyInfo.cs
 /home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.dll
 /home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.pdb
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.csproj.CoreCompileInputs.cache
+/home/dani/Code/C#/PF-Project/obj/Debug/netcoreapp3.1/PF-Project.genruntimeconfig.cache

@@ -1,11 +1,12 @@
 ﻿/*
 PAF KIET UNIVERSITY PROJECT
-Subject: Programming Fundamentals
+Subject: Programming Fundamentals 103471
 Semester: Spring 2020
+Topic: Caesar Cipher
 Made By:
 1. Danial Farooq Haider 11084
 2. Yousuf Baloch 11495
-3. Muhammad Haroon 11204.
+3. Muhammad Haroon 11204
 */
 
 using System;
@@ -14,6 +15,32 @@ namespace PF_Project
 {
     class Program
     {
+        static void Main()
+        {
+            Console.Write("Please enter 'E' to encrypt or 'D' to decrypt: ");
+            string choice = Console.ReadLine().ToUpper();
+            
+            if (choice == "E")
+            {
+                Console.Write("Please enter an unspaced alphabet string to encrypt: ");
+                string decryptedInput = Console.ReadLine().ToUpper();
+                string encryptedOutput = Caesar(decryptedInput, 3).ToUpper();
+
+                Console.WriteLine(decryptedInput);
+                Console.WriteLine(encryptedOutput);
+            }
+
+            else if (choice == "D")
+            {
+                Console.Write("Please enter an unspaced alphabet string to decrypt: ");
+                string encryptedInput = Console.ReadLine().ToUpper();
+                string decryptedOutput = Caesar(encryptedInput, -3).ToUpper();
+
+                Console.WriteLine(encryptedInput);
+                Console.WriteLine(decryptedOutput);
+            }
+        }
+
         static string Caesar(string value, int shift)
         {
             char[] buffer = value.ToCharArray();
@@ -33,16 +60,6 @@ namespace PF_Project
                 }
             }
             return new string(buffer);
-        }
-
-        static void Main()
-        {
-            Console.Write("Please enter an unspaced alphabet string to encrypt: ");
-            string DecryptedInput = Console.ReadLine().ToUpper();
-            string EncryptedOutput = Caesar(DecryptedInput, 3).ToUpper();
-
-            Console.WriteLine(DecryptedInput);
-            Console.WriteLine(EncryptedOutput);
         }
     }
 }
