@@ -19,12 +19,16 @@ namespace PF_Project
         {
             Console.Write("Please enter 'E' to encrypt or 'D' to decrypt: ");
             string choice = Console.ReadLine().ToUpper();
+
+            
             
             if (choice == "E")
             {
                 Console.Write("Please enter an unspaced alphabet string to encrypt: ");
                 string decryptedInput = Console.ReadLine().ToUpper();
-                string encryptedOutput = Caesar(decryptedInput, 3).ToUpper();
+                Console.WriteLine("How many places do you want to shift the alphabets? Please enter a number: ");
+                string shift = Console.ReadLine();
+                string encryptedOutput = Caesar(decryptedInput, Convert.ToInt32(shift)).ToUpper();
 
                 Console.WriteLine(decryptedInput);
                 Console.WriteLine(encryptedOutput);
@@ -34,7 +38,9 @@ namespace PF_Project
             {
                 Console.Write("Please enter an unspaced alphabet string to decrypt: ");
                 string encryptedInput = Console.ReadLine().ToUpper();
-                string decryptedOutput = Caesar(encryptedInput, -3).ToUpper();
+                Console.WriteLine("How many places do you want to shift the alphabets? Please enter a number: ");
+                string shift = Console.ReadLine();
+                string decryptedOutput = Caesar(encryptedInput, -Convert.ToInt32(shift)).ToUpper();
 
                 Console.WriteLine(encryptedInput);
                 Console.WriteLine(decryptedOutput);
